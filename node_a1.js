@@ -110,9 +110,9 @@ const fs = require("fs");
 
 // Q8 Delete the folder space_project
 
-fs.rmdir("space_project",(err)=>{
-    if(err){
-        throw err
-    }
-    console.log("Successfully removed directory from disk")
-})
+// fs.rmdir("space_project",(err)=>{
+//     if(err){
+//         throw err
+//     }
+//     console.log("Successfully removed directory from disk")
+// })
